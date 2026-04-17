@@ -38,6 +38,12 @@ body {
 	color: #000
 }
 
+.carousel-item img {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -69,6 +75,8 @@ body {
 
 .picture img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 
 }
 #about-me {
@@ -200,6 +208,17 @@ body {
 
 #contact .container {
 	display: flex;
+}
+
+.picture.right {
+    max-width: 400px;
+    margin-left: auto;
+}
+
+.picture.right img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 .picture.right::before {
 	content: ' ';
